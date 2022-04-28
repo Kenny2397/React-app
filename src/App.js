@@ -3,22 +3,15 @@
 import React from "react";
 // import OtroComponente from "./componentes/otrocomponente/OtroComponente";
 // import Persona from "./componentes/Persona/Persona";
-// import ComponenteFuncional from './componentes/Componentefuncional/ComponenteFuncional';
+import ComponenteFuncional from './componentes/Componentefuncional/ComponenteFuncional';
 
 class App extends React.Component {// sin ()
   
   render(){
     return(
       <div className='App'>
-        <h1>Hello Dojo!</h1>
-        <h3>Things I need to do:</h3>
-        <ul>
-          <li>Learn react</li>
-          <li>Learn react</li>
-          <li>Learn react</li>
-          <li>Learn react</li>
-        </ul>
-        {/* <ComponenteFuncional num ={12} aumento={2}/> */}
+        
+        <ComponenteFuncional num ={0} aumento={2}/>
       </div>
     )
 
